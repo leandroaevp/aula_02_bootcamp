@@ -69,7 +69,14 @@ raio  = float(input("Digite o raio do círculo: "))
 resultado = 3.14159265359 * (raio)**2
 print(" O resultado é : ", resultado)
 
+# 11.Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+nome = input("Escreva um nome: ")
+resultado = nome.upper()
+print(" O resultado é : ", resultado)
 
 
 
-
+# 12.Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+nome_completo = input("Digite seu nome completo : ")
+resultado = nome_completo.lower()
+print("O Resultado é : ", resultado)
