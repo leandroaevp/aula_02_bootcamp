@@ -37,3 +37,39 @@ print(f" O Resultado é :",  resultado)
 numero_1 =  int(input("Digite um número: "))
 resultado = numero_1 ** 2
 print(f" O Resultado é :",  resultado)
+
+
+# 6.Escreva um programa que receba dois números flutuantes e realize sua adição
+numero_1 = float(input("Digite um numero: "))
+numero_2 = float(input("Digite outro numero: "))
+resultado = numero_1 + numero_2
+print("O resultado é : ", resultado)
+
+# 7.Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+numero_1 = float(input("Digite um numero: "))
+numero_2 = float(input("Digite outro numero: "))
+resultado = (numero_1 + numero_2)/2
+print("O resultado é : ", resultado)
+
+
+# 8.Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+base = float(input("Digite um numero: "))
+expoente  = float(input("Digite outro numero: "))
+resultado = base ** expoente
+print("O resultado é : " , resultado)
+
+# 9.Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+temperatura_celsius = float(input("Digite a temperatura: "))
+conversao = (temperatura_celsius * 1.8 +32)
+print(" O resultado é : ", conversao)
+
+
+# 10.Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio  = float(input("Digite o raio do círculo: "))
+resultado = 3.14159265359 * (raio)**2
+print(" O resultado é : ", resultado)
+
+
+
+
+
