@@ -85,4 +85,33 @@ sobrenome = input("Digite o sobrenome")
 resultado = nome + " " + sobrenome
 print("O resultado é : ", resultado)
 
-ol
+# 16.Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+exp_1 = True
+exp_2 = False
+resultado = exp_1 and exp_2
+print(resultado)
+
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+exp_1 = True
+exp_2 = False
+resultado = exp_1 or exp_2
+print(resultado)
+
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+valor_1 = True
+resultado_not = not valor_1
+print("Resultado do NOT lógico:", resultado_not)
+
+# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+valor_1  = int(input("Digite um numero : " ))
+valor_2  = int(input("Digite outro numero : " ))
+resultado  = valor_1 == valor_2 
+print(" O resultado é: ", resultado)
+
+# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+valor_1  = int(input("Digite um numero : " ))
+valor_2  = int(input("Digite outro numero : " ))
+resultado  = valor_1 != valor_2 
+print(" O resultado é: ", resultado)
+
+.
